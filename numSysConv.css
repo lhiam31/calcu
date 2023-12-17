@@ -1,0 +1,123 @@
+body
+{
+    background-image: url(image/back1.png);
+    background-repeat: no-repeat;
+    background-size: full;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    visibility: visible;
+    left: 400px;
+    top: 40px;
+    text-shadow: 4px 4px 4px rgba(192, 161, 161, 0.5); /* Adjust values for your preferred shadow */
+}
+
+.iType
+{
+    height: 50px;
+    width: 90px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #3d3c3c;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; visibility: visible; left: 540px; top: 200px;
+}
+.iType:hover{
+    background-color: rgb(206, 203, 203);
+    transition: 0.5s;
+}
+.iNum
+{
+    height: 40px;
+    width: 240px;
+    background-color: #ecf0f3;
+    box-shadow: 
+                inset 5px 5px 12px rgba(10, 10, 10, 0.973);
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; visibility: visible; left: 650px; top: 200px; 
+}
+.iNum:hover
+{
+    background-color: rgb(206, 203, 203);
+    transition: 0.5s;
+}
+.oType
+{
+    height: 50px;
+    width: 90px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #3d3c3c;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; visibility: visible; left: 540px; top: 272px;
+}
+.oType:hover
+{
+    background-color: rgb(206, 203, 203);
+    transition: 0.5s;
+
+}
+.oNum
+{
+    height: 40px;
+    width: 240px;
+    background-color: #ecf0f3;
+    box-shadow: 
+                inset 5px 5px 12px rgba(10, 10, 10, 0.973);
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute; visibility: visible; left: 650px; top: 270px; 
+}
+.oNum:hover
+{
+    background-color: rgb(206, 203, 203);
+    transition: 0.5s;
+
+}
+.btn
+{
+    height: 48px;
+    width: 120px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #3d3c3c;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: absolute; visibility: visible; left: 650px; top: 340px
+}
+.btn:hover
+{
+    background-color: rgb(206, 203, 203);
+    transition: 0.5s;
+
+}
+
+  
+  
+  
+
